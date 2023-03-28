@@ -2,6 +2,14 @@
     background-color: #2C3E50;
 }
 
+.navbar_color_dark{
+    background-color: #2C3E50;
+}
+
 .green {
     background-color: #1ABC9C;
+}
+
+img {
+    width: 100%;
 }
