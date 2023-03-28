@@ -10,6 +10,10 @@ background-color: #2C3E50;
     background-color: #1ABC9C;
 }
 
+.user {
+    width: 50%;
+}
+
 img {
     width: 100%;
 }
