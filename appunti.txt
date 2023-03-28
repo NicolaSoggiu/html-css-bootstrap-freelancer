@@ -1,0 +1,18 @@
+div o section a tutto schermo con solo lo sfondo colorato e poi un solo container fatto a quadrati.
+
+il primo container è lo stesso container con gli spazi ai lati ( si può fare con margin auto destro o sinistro, oppure offset, oppure meglio centrare il testo)
+
+sotto una griglia da far funzionare con il gap da dare alla row, il contenuto non va messo ma impostare giusto gli sfondi (lo sfondo va dato non alla col ma al sottocontainer della col)
+
+sezione about due blocchi che occupano il 50% e sotto il bottone
+
+contact me blocco unico con sopra il titolo, blocco appena più piccolo del container
+
+sotto area divisa in 3 sezioni, col4 o col flessibile che si divide da solo.
+
+
+NB se abbiamo bisogno di padding lo diamo al content non al container o alle row.
+
+Nel telefono la griglia va a una riga. Anche le altre section vanno tutte ad una colonna.
+
+Nel tablet la griglia va a due colonne, e cambia anche la nav dove viene fuori la lista.
