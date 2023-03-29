@@ -41,39 +41,35 @@
     height: 3px;
 }
 
-.card img {
+.cards img {
     width: 100%;
 }
 
-.cards{
-    width: 100%;
+
+.cards .img {
     position: relative;
-}
-
-.card {
     width: 100%;
 }
 
 
-.bi-plus {
+/* CAPIRE PERCHE' NON SI POSIZIONA AL CENTRO IN ALTEZZA*/
+.cards .img .img-hover {
     position: absolute;
-    font-size: 5rem;
-    left: 50%;
+    display: none;
+    font-size: 4rem;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    opacity: 0;
-}
-.cards:hover .bi-plus {
-    opacity: 1;
-    border-radius: 20px;
-    border-color: #1ABC9C;
+    background-color: rgba(0, 255, 0, 0.4);
 }
 
-.card:hover {
-    opacity: 0.5;
-    background: green;
-    transition: color s ease;
+
+.cards .img:hover .img-hover {
+    display: block;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
 }
 
 /* LOCATION */
