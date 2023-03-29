@@ -6,6 +6,12 @@
     background-color: #3A546D;
 }
 
+.white-line {
+    background-color: white;
+    width: 60px;
+    height: 3px;
+}
+
 .navbar_color_dark {
 background-color: #2C3E50;
 }
