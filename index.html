@@ -21,129 +21,142 @@
     />
   </head>
   <body>
-    <!-- navbar -->
-    <!-- <div class="container-fluid navbar_color">
-      <div class="row d-flex justify-content-between align-items-center p-4">
-        <div class="col text-white">START BOOTSTRAP</div>
-        <div class="col d-lg-none d-flex justify-content-end col-md-3">
-          <i class="fa-solid fa-bars" style="color: #7d7f82"></i>
+    <header>
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form> -->
+          </div>
         </div>
-      </div>
-    </div> -->
+      </nav>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid navbar_color">
-        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-          <span class="navbar-text"> Navbar text with an inline element </span>
+      <section class="container-fluid green">
+        <div class="container text-center text-white">
+          <img src="img/avatar.svg" alt="" class="hero" />
+          <h1>START BOOTSTRAP</h1>
+          <!-- <div class="d-flex"> -->
+          <i class="fa-solid fa-star"></i>
+          <!-- </div> -->
+          <div class="jumbo-text d-flex justify-content-center">
+            <div>GRAPHIC ARTIST -</div>
+            <div class="px-2">WEB DESIGNER -</div>
+            <div>ILLUSTRATOR</div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </section>
+    </header>
 
-    <div class="container-fluid green">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-12 align-self-center">
-            <img src="img/avatar.svg" alt="" class="user" />
-            <h1>START BOOTSTRAP</h1>
-            <i class="fa-solid fa-star"></i>
-            <div class="jumbo-text d-flex justify-content-center">
-              <div class="span">GRAPHIC ARTIST -</div>
-              <div class="span px-2">WEB DESIGNER -</div>
-              <div class="span">ILLUSTRATOR</div>
+    <section class="container text-center">
+      <div class="container">
+        <h1>PORTFOLIO</h1>
+        <i class="fa-solid fa-star"></i>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="contents">
+              <img src="img/cabin.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="contents">
+              <img src="img/cake.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="contents">
+              <img src="img/circus.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="contents">
+              <img src="img/game.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="contents">
+              <img src="img/safe.png" alt="" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="contents">
+              <img src="img/submarine.png" alt="" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-12">
-          <h1>PORTFOLIO</h1>
-          <i class="fa-solid fa-star"></i>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/cabin.png" alt="" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/cake.png" alt="" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/circus.png" alt="" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/game.png" alt="" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/safe.png" alt="" />
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container">
-            <img src="img/submarine.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <div class="container-fluid green text-center">
-      <div class="container px-5">
-        <div class="row">
-          <div class="col-12">
-            <h1>ABOUT</h1>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <div class="col-12 col-md-6">
+      <div class="container">
+        <h1>ABOUT</h1>
+        <i class="fa-solid fa-star"></i>
+        <div class="row g-4">
+          <div class="col-10 col-md-5 offset-1">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              quia, a, ducimus exercitationem suscipit temporibus error sequi,
-              hic quo eligendi quod? Eos minima repellat veritatis provident sed
-              nam voluptatum tempora! Excepturi laborum aspernatur culpa
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+              eligendi ea illo veritatis amet? Quia dignissimos amet ea iusto
+              quis voluptas libero quos officia maxime, quasi quo. Libero, eius
+              dolorem?
             </p>
           </div>
-
-          <div class="col-12 col-md-6">
+          <div class="col-10 col-md-5 offset-1 offset-md-0">
             <p>
-              veritatis assumenda fuga? Voluptates earum doloribus in sequi?
-              Voluptas aliquam praesentium fuga, repudiandae dolor ipsam at,
-              vero laboriosam ullam, omnis fugit officia minus quibusdam optio
-              ipsa.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem eos
+              asperiores architecto consequatur sapiente consequuntur aut ullam
+              maiores, pariatur officia aperiam sit a praesentium. Dolorem eaque
             </p>
-          </div>
-          <div class="col-12">
-            <button class="green">download</button>
           </div>
         </div>
       </div>
