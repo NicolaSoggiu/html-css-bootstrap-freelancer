@@ -1,5 +1,6 @@
 .navbar {
     width: 100%;
+    z-index: 2;
 }
 
 .navbar_color {
@@ -30,7 +31,7 @@ background-color: #2C3E50;
     width: 150px;
 }
 
-.contents img {
+.card img {
     width: 100%;
 }
 
@@ -41,4 +42,39 @@ background-color: #2C3E50;
 
 .start-bootstrap {
     padding-top: 8rem;
+}
+
+.cards{
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    width: 100%;
+}
+
+
+.bi-plus {
+    position: absolute;
+    font-size: 5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+}
+.cards:hover .bi-plus {
+    opacity: 1;
+    border-radius: 20px;
+    border-color: #1ABC9C;
+}
+
+.card:hover {
+    opacity: 0.5;
+    background: green;
+    transition: color s ease;
+}
+
+.start-bt {
+    color: #1ABC9C;
 }
